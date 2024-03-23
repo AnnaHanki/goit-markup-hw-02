@@ -18,9 +18,23 @@ body {
     letter-spacing: 2%;
 }
 
-body :hover {
+/*settings of contacts in header*/
+.contacts-list :hover, :focus {
     color: #404BBF;
 }
+
+/*button's main settings*/
+.main-header-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+/*button's settings with hover*/
+.main-header-button :hover, :focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 
 
 
