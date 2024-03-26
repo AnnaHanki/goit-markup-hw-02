@@ -22,6 +22,10 @@ button {
     color: #2E2F42;
 }
 
+address {
+    font-style: normal;
+}
+
 /*header*/
 .header-logo,
 .footer-logo {
@@ -47,16 +51,18 @@ button {
 }
 
 /*menu navigation*/
-.header-navigation-first-item,
+
 .header-navigation-item,
 .main-title-button,
 .features-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
-    font-weight: 500;
-    color: #2e2f42;    
+    font-weight: 500;   
 }
 
+.header-navigation-first-item {
+    color: #2e2f42; 
+}
 .header-contacts-item,
 .features-text,
 .team-text,
