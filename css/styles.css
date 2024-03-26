@@ -163,14 +163,25 @@ address {
 
 /*team-section*/
 
+.team-section {
+    background-color: #F4F4FD;
+}
+
 .team-title,
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    /*text-align: center;*/
+    text-align: center;
+    text-transform: capitalize;
+
 }
+
+.team-section-first-item {
+    background-color: #fff;
+}
+
 /*
 .team-subtitle {
     text-align: center;
