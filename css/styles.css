@@ -77,12 +77,12 @@ address {
     font-weight: 400;
 }
 
-.header-contacts-first-item {
+.header-contacts-item {
     color: #434445;
 }
 
-.header-contacts-first-item:hover,
-.header-contacts-first-item:focus {
+.header-contacts-item:hover,
+.header-contacts-item:focus {
     color: #404bbf;
 }
 
