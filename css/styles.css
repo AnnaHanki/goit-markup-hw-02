@@ -40,8 +40,6 @@ button {
 }
 
 
-
-
 .header {
     font-size: 16px;
     line-height: 1.5;
@@ -49,13 +47,14 @@ button {
 }
 
 /*menu navigation*/
-.header-nav-item,
+.header-navigation-first-item,
+.header-navigation-item,
 .main-title-button,
 .features-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
     font-weight: 500;
-    
+    color: #2e2f42;    
 }
 
 .header-contacts-item,
@@ -68,10 +67,16 @@ button {
 
 /*  ----why no changes???----*/
 /*menu navigation: hover, focus*/
-.header-nav-item:hover,
-.header-nav-item:focus,
+/*
+.header-navigation-item:hover,
+.header-navigation-item:focus,
 .header-contacts-item:hover,
 .header-contacts-item:focus {
+    color: #404bbf;
+}*/
+
+.header-navigation-first-item:hover,
+.header-navigation-first-item:focus {
     color: #404bbf;
 }
 
