@@ -3,7 +3,6 @@ body {
     font-style: normal;
     color: #434455;
     background-color: #FFFFFF;
-
 }
 
 ul {
@@ -62,6 +61,7 @@ address {
 
 .header-navigation-first-item {
     color: #2e2f42; 
+    font-weight: 500;
 }
 
 .header-navigation-first-item:hover,
@@ -78,31 +78,22 @@ address {
 }
 
 .header-contacts-item {
-    color: #434445;
+    color: #434455;
 }
 
 .header-contacts-item:hover,
 .header-contacts-item:focus {
     color: #404bbf;
 }
-
-/*  ----why no changes???----*/
-/*menu navigation: hover, focus*/
-/*
-.header-navigation-item:hover,
-.header-navigation-item:focus,
-.header-contacts-item:hover,
-.header-contacts-item:focus {
-    color: #404bbf;
-}*/
-
-
 
 
 /*main*/
 
 /*main-title-section (hero)*/
 
+.hero-title-section {
+    background-color: #2e2f42;
+}
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -127,7 +118,7 @@ address {
 
     /*border-radius: 4px;
     padding: 16px 32px;
-    /*width: 169px;
+    width: 169px;
     height: 56px;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/ 
@@ -182,23 +173,11 @@ address {
     background-color: #fff;
 }
 
-/*
-.team-subtitle {
-    text-align: center;
-}
-
-.team-text {
-    text-align: center;
-}
-*/
-
 
 
 
 
 /*portfolio-section*/
-
-
 
 .portfolio-subtitle {
     font-size: 20px;
@@ -235,4 +214,3 @@ address {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
