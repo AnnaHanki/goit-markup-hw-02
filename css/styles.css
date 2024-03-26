@@ -23,22 +23,24 @@ button {
 }
 
 /*header*/
-.logo {
+.header-logo,
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.header-logo {
-    color: #2e2f42;
-}
-
-.logos {
     color: #4d5ae5;
 }
+
+
+.logos-header {
+    color: #2e2f42
+}
+
+
+
 
 .header {
     font-size: 16px;
@@ -189,7 +191,7 @@ button {
     background-color: #2e2f42;
 }
 
-.footer-logo {
+.logos-footer {
     color: #f4f4fd;
 }
 
@@ -198,5 +200,5 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-
 }
+
