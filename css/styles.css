@@ -63,12 +63,27 @@ address {
 .header-navigation-first-item {
     color: #2e2f42; 
 }
+
+.header-navigation-first-item:hover,
+.header-navigation-first-item:focus {
+    color: #404bbf;
+}
+
 .header-contacts-item,
 .features-text,
 .team-text,
 .portfolio-text,
 .footer-text {
     font-weight: 400;
+}
+
+.header-contacts-first-item {
+    color: #434445;
+}
+
+.header-contacts-first-item:hover,
+.header-contacts-first-item:focus {
+    color: #404bbf;
 }
 
 /*  ----why no changes???----*/
@@ -81,10 +96,6 @@ address {
     color: #404bbf;
 }*/
 
-.header-navigation-first-item:hover,
-.header-navigation-first-item:focus {
-    color: #404bbf;
-}
 
 
 
@@ -99,6 +110,7 @@ address {
     letter-spacing: 0.02em;
     color: #fff;
     background-color: #2e2f42;
+    text-align: center;
 
     /*width: 1440px;
     height: 600px;*/
