@@ -53,7 +53,7 @@ address {
 /*menu navigation*/
 
 .header-navigation-item,
-.main-title-button,
+.hero-title-button,
 .features-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
@@ -90,9 +90,9 @@ address {
 
 /*main*/
 
-/*main-title-section*/
+/*main-title-section (hero)*/
 
-.main-title {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -107,7 +107,7 @@ address {
 
 /*button's main settings*/
 
-.main-title-button {
+.hero-title-button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -123,9 +123,9 @@ address {
 }
 
 /*button's settings with hover, focus*/
-.main-title-button:hover, 
-.main-title-button:focus,
-.main-title-button:active
+.hero-title-button:hover, 
+.hero-title-button:focus,
+.hero-title-button:active
 {
     background-color: #404BBF;
 }
